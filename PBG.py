@@ -17,7 +17,7 @@ sys.path.append(CurrentDir) #Add filepath to system path
 print(CurrentDir, "added to system path.") #Report to user
 
 #setting to my personal directory
-sys.path.append(r'"C:\Users\tovao\Documents\Spring Semester 2026\ECHM 490IR\GitHub\PBG"') #Add filepath to system path
+sys.path.append(r'"C:\Users\h93p771\OneDrive - Montana State University\Documents\GitHub\PBG"') #Add filepath to system path
 
 import bpy 
 import importlib

@@ -1,2 +1,2 @@
-cd "C:\Users\tovao\Documents\Spring Semester 2026\ECHM 490IR\GitHub\PBG"
-"c:\Program Files\Blender Foundation\Blender 5.0\blender.exe" -b empty.blend -P pbg.py
+cd ""C:\Users\h93p771\OneDrive - Montana State University\Documents\GitHub\PBG""
+"C:\Program Files\Blender Foundation\Blender 5.1\blender.exe" -b empty.blend -P pbg.py

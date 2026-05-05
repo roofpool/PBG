@@ -54,7 +54,7 @@ def part_generation(pellet_key,x_y_range,phi_range,top,vectors):
         elif pellet_key == 9:
             logging.info(f"part_generation generating irregular particles: {i+1}/{PARTS}.")
             print(f"generating {i+1}/{PARTS} particles")
-            stl_particle_001 = bpy.ops.wm.stl_import(filepath=r"C:\Users\tovao\Documents\Spring Semester 2026\ECHM 490IR\GitHub\PBG\Scale_up_stl_particle_001.stl")
+            stl_particle_001 = bpy.ops.wm.stl_import(filepath=r"C:\Users\h93p771\OneDrive - Montana State University\Documents\GitHub\PBG\Scale_up_stl_particle_001.stl")
             #for use on linux machine (./whatever_name)
             #stl_particle_001 = bpy.ops.wm.stl_import(filepath=r"./Scale_up_stl_particle_001.stl")
 
