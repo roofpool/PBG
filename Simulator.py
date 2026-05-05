@@ -79,7 +79,7 @@ def steady_state(simulation_current_frame):
             d[i]=(((((x[i]-x_prev[i])**2))+(((y[i]-y_prev[i])**2))+(((z[i]-z_prev[i])**2)))**0.5)
             x_prev[i],y_prev[i],z_prev[i] = x[i],y[i],z[i]
             i = i+1
-        if max(d) < 0.4:
+        if max(d) < 0.5:
             logging.info(f"steady_state stopping max(d): {max(d)}.")
             Stop = True
             #note: the below is a kill switch for the code to prevent extensive run time for falling particles
